@@ -1,5 +1,5 @@
 import { COLORS } from '@/constants/tokens'
-import { Icon } from '@rneui/themed'
+import { FontAwesome } from '@expo/vector-icons'
 import { Tabs } from 'expo-router'
 
 export default function TabLayout() {
@@ -10,7 +10,7 @@ export default function TabLayout() {
 				options={{
 					title: 'Home',
 					tabBarIcon: ({ color }) => (
-						<Icon name="home" type="font-awesome" color={color} />
+						<FontAwesome name="home" size={20} color={color} />
 					),
 				}}
 			/>
@@ -19,9 +19,8 @@ export default function TabLayout() {
 				options={{
 					title: 'Search',
 					//   headerShown: false,
-					//   tabBarIcon: ({ color }) => <FontAwesome size={28} name="home" color={color} />,
 					tabBarIcon: ({ color }) => (
-						<Icon name="search" type="antdesign" color={color} />
+						<FontAwesome name="search" size={20} color={color} />
 					),
 				}}
 			/>
@@ -30,7 +29,7 @@ export default function TabLayout() {
 				options={{
 					title: 'Library',
 					tabBarIcon: ({ color }) => (
-						<Icon name="bars" type="font-awesome" color={color} />
+						<FontAwesome name="bars" size={20} color={color} />
 					),
 				}}
 			/>
@@ -39,7 +38,7 @@ export default function TabLayout() {
 				options={{
 					title: 'Profile',
 					tabBarIcon: ({ color }) => (
-						<Icon name="user" type="font-awesome" color={color} />
+						<FontAwesome name="user" size={20} color={color} />
 					),
 				}}
 			/>
