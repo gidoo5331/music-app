@@ -34,7 +34,7 @@ module.exports = [
 			'react-native/no-raw-text': [
 				'error',
 				{
-					skip: ['CustomText', 'AnotherCustomText'], // Update with your custom Text components if any
+					skip: ['CustomText', 'AnotherCustomText'],
 				},
 			],
 			'react/prop-types': 'off', // Using TypeScript for type checking
