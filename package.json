@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "prepare": "husky install",
     "lint": "eslint .",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint:fix": "eslint . --fix"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
